@@ -1,0 +1,38 @@
+
+body {
+
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  }
+
+  .container{
+    width: 100%;
+    max-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h1{
+    font-size:8em;
+  }
+  .ville{
+    font-size: 6em;
+    font-weight: lighter;
+  }
+  .temperature{
+    font-size: 3em;
+  }
+  .changer{
+    margin:200px;
+    padding:20px 40px;
+    background-color: #2980B9;
+    color:#FFFFFF;
+    border:none;
+    border-radius: 5px;
+    font-size:1.5em ;
+    cursor:pointer;
+  }
+  .changer:hover{
+    background-color: black;
+    color: #FFFFFF;
+  }
